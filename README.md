@@ -21,7 +21,9 @@
  4.Create two classes: Parent and Child.  [Polymorphism]
  
    Overload ping() in Child.
+   
    Override display().
+   
    Also implement upcasting during instantiation.
    
   5.Program to implement the following hierarchy.   [Abstraction]
