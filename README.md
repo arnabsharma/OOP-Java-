@@ -5,6 +5,7 @@
  2.Program to set a value and retrieve that value using methods.  [Encapsulation]
  
  3.Program to implement the following hierarchy.  [Inheritance]
+ 
               A
             /   \
            B     C
