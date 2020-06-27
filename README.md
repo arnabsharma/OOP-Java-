@@ -13,7 +13,7 @@
          D
       
             Instance Variable     Instance Method
-     A =>       a                   printValue()
+     A =>       a                   printValue(), messageA()
      B =>       b                   printValue()
      C =>       c                   printValue()
      D =>       d                   printValue()
