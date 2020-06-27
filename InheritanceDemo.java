@@ -24,6 +24,11 @@ class A
 
         System.out.println("a : "+a);
     }
+    
+    public void messageA()
+    {
+        System.out.println("Property of A");        
+    }
 }
 
 class B extends A
@@ -84,8 +89,12 @@ public class InheritanceDemo //Class containing main() method should have the sa
 {
     public static void main(String[] args)
     {
+    
+        B objB=new B();
+        objB.messageA();  //Invokes parent A's messageA() method.
+        System.out.println("\n\n\n");
+        
         D objD=new D(10,20,40);
-
         objD.printValue();  //Invokes D's printValue() as objD is an object of  D
 
     }
